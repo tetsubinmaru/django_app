@@ -12,7 +12,7 @@ def index(request):
 def next(request):
     params = {
         'title': 'Hello/Next',
-        'msg': 'これは、もう一つのページです。',
+        'msg': 'これは、もう一つのページです!!!!',
         'goto': 'index',
     }
     return render(request, 'hello/index.html', params)
